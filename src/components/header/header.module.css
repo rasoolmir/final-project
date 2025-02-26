@@ -1,0 +1,6 @@
+.header {
+  background-color: var(--background-color-2);
+  color: var(--white);
+  text-align: center;
+  border: 1px solid var(--border);
+}

@@ -1,0 +1,47 @@
+.todo-app {
+  display: grid;
+
+  > form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block: 1rem;
+
+    > input {
+      border: 1px solid var(--border);
+      border-radius: var(--border-radius-circle);
+      background-color: var(--white);
+      width: 14rem;
+    }
+
+    > button {
+      border: 1px solid var(--btn);
+      border-radius: var(--border-radius-circle);
+      background-color: var(--btn);
+      color: var(--white);
+      margin: 0.4rem;
+      cursor: pointer;
+      width: 1.5rem;
+    }
+  }
+
+  li {
+    border: 1px solid var(--border);
+    border-radius: var(--border-radius-square);
+    margin-block: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    margin: 0 auto;
+  }
+
+  span {
+    padding: 5px;
+    cursor: pointer;
+  }
+
+  .color-text {
+    color: var(--red);
+  }
+}

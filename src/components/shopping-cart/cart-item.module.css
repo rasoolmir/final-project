@@ -1,0 +1,42 @@
+.cart-items {
+  list-style: none;
+  margin: 1rem 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  > li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h3 {
+    width: 15rem;
+  }
+
+  .cart-item-actions {
+    font-size: 1rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+
+    > button {
+      border: none;
+      color: var(--color);
+      cursor: pointer;
+      font-size: 1rem;
+      padding: 1rem;
+      background: none;
+    }
+
+    > button:first-of-type {
+      padding-bottom: 0.5rem;
+    }
+  }
+
+  > p {
+    text-align: end;
+  }
+}

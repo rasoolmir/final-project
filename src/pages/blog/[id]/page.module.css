@@ -1,0 +1,51 @@
+.page {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+
+  .blog-image {
+    min-block-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: var(--border-radius-square);
+    aspect-ratio: 1/1;
+
+    > img {
+      block-size: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease-in-out;
+    }
+  }
+
+  header {
+    display: grid;
+    gap: 0.5rem;
+    text-align: center;
+
+    > h2 {
+      font-size: 1.2rem;
+      color: var(--color);
+      font-weight: bold;
+      margin: 0;
+    }
+
+    .blog-details {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      > span {
+        color: var(--neutral-shade-50);
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+  > p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin: 0;
+  }
+}

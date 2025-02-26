@@ -1,0 +1,17 @@
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  .main {
+    display: flex;
+    flex: 1;
+  }
+
+  .content {
+    flex: 1;
+    padding: 1.5rem;
+    background-color: var(--white);
+    overflow-y: auto;
+  }
+}
