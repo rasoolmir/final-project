@@ -1,8 +1,7 @@
-# پروژه پایانی دوره ریکت
+# Final Project for React Course
 
-## توضیحات پروژه
+## Project Description
 
-پروژه با استفاده از ریداکس تولکیت هست
-که صفحات با لیزی لودینگ و لودینگ خودم درست شد است
-صفحه بلاگ به صورت لوکال اطلاعات را ار فایل ماک می گیرد و نشان میدهد
-نشان داده می شود fakestoreapi.com صفحه فروشگاه بااستفاده از سایت
+This project is developed using Redux Toolkit. Pages are loaded using Lazy Loading, and a custom loading component has been implemented to enhance the user experience.
+The Blog Page retrieves and displays data from a local mock file.
+The Shop Page fetches product data from FakeStoreAPI.
