@@ -1,4 +1,4 @@
-# Final Project for React Course
+# Final Project
 
 ## Project Description
 
